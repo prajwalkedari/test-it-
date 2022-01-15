@@ -81,6 +81,7 @@ def sec2hrs(seconds):
     	seconds %= 60
     	return "%d:%02d:%02d" % (hour, minutes, seconds)
 
+
 def min2hrs(Minute,Fromat=False):
 	minmm=int(Minute%60)
 	hrs=int(Minute/60)
